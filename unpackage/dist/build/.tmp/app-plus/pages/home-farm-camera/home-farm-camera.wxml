@@ -1,0 +1,1 @@
+<view><block wx:for="{{videoList}}" wx:for-item="item" wx:for-index="index" wx:key="index"><block><view class="video-item"><text class="title">{{item.name}}</text><view class="shipin"><video class="zhanwei" src="{{item.url}}" autoplay="autoplay" objectFit="fill" catchtap="onVideoItemCilck"></video></view></view></block></block></view>

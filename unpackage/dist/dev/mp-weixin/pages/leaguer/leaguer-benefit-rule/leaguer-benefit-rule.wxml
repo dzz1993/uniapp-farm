@@ -1,0 +1,1 @@
+<view><view class="page-container"><block wx:for="{{quanyiDescription}}" wx:for-item="item" wx:for-index="index" wx:key="index"><block><view class="title"><image src="{{item.img}}"></image><text>{{item.title}}</text></view><text class="content">{{item.content}}</text></block></block></view></view>

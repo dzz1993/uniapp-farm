@@ -1,0 +1,58 @@
+
+.heng{
+  border-bottom:1px solid #efefef;
+  padding:10rpx 20rpx;
+  font-size: 30rpx;
+  font-weight: 300;
+}
+.titt{
+  padding:10rpx 20rpx;
+  font-size: 28rpx;
+  font-weight: 300;
+}
+.titt text{
+  color:#85DFA3;
+  margin:0 10rpx;
+}
+.progress{
+  padding-left: 80rpx;
+  font-size: 26rpx;
+  font-weight: 300;
+  color:#666;
+}
+.qu{
+  border-left:1px solid #eee;
+  padding:20rpx 35rpx;
+  border-bottom:1px solid #efefef;
+  position: relative;
+}
+.qu::before{
+  position: absolute;
+  top:50%;
+  left:-12rpx;
+  margin-top: -12rpx;
+  content: "";
+  width:24rpx;
+  height:24rpx;
+  border-radius: 12rpx;
+  background-color:#eee;
+}
+.qu.active{
+  color:#fc8b28;
+  font-weight: 300;
+}
+.qu.active::before{
+  width:20rpx;
+  height:20rpx;
+  background-color:#FF7101;
+  -webkit-box-shadow: 0 0 0rpx 6rpx #fcaa62;
+          box-shadow: 0 0 0rpx 6rpx #fcaa62;
+}
+.none{
+  font-size: 26rpx;
+  font-weight: 300;
+  color:#666;
+  text-align: center;
+  margin-top: 40rpx;
+}
+

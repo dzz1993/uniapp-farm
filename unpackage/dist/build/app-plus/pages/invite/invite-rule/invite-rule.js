@@ -1,0 +1,2 @@
+setCssToHead([".",[1],"rule-container{ padding: 0 ",[0,30],"; }\nbody { background: #FFFFFF; }\n",],undefined,{path:"./pages/invite/invite-rule/invite-rule.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/invite/invite-rule/invite-rule.wxml') } }));

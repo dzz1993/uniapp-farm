@@ -1,0 +1,1 @@
+<view><view class="con-container"><image class="img-suc" src="https://aoyifarm.oss-cn-beijing.aliyuncs.com/icon/succcess.png"></image><view data-event-opts="{{[['tap',[['onGoBackClick',['$event']]]]]}}" class="jjfh" bindtap="__e"><text>前往集市</text></view></view></view>

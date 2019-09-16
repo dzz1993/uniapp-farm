@@ -1,0 +1,1 @@
+<view><view class="notice-item"><view class="notice-title-container"><text class="notice-title">{{notice_info.title}}</text><text class="notice-time">{{notice_info.add_time}}</text></view><view class="hr"></view><view><rich-text class="richText" nodes="{{notice_info.content}}"></rich-text></view></view></view>

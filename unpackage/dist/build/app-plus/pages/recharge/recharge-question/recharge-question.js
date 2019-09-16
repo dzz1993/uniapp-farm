@@ -1,0 +1,2 @@
+setCssToHead(["body{ background: #FFFFFF; }\n.",[1],"page-container{ display:-webkit-box; display:-webkit-flex; display:-ms-flexbox; display:flex; -webkit-box-orient:vertical; -webkit-box-direction:normal; -webkit-flex-direction:column; -ms-flex-direction:column; flex-direction:column; padding-left:25px; padding-top:",[0,40]," }\n",],undefined,{path:"./pages/recharge/recharge-question/recharge-question.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/recharge/recharge-question/recharge-question.wxml') } }));

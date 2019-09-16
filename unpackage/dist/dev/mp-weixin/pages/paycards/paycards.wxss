@@ -1,0 +1,108 @@
+
+.pageTop {
+		padding-top: 10rpx;
+}
+.tiShi {
+		padding-top: 200rpx;
+		width: 250rpx;
+		height: 200rpx;
+		margin: 0rpx auto;
+		text-align: center;
+		color: #999;
+		font-weight: 300;
+		margin-bottom: 40rpx;
+}
+.noCard {
+		width: 200rpx;
+		height: 190rpx;
+}
+.cardInfo {
+		padding: 5rpx 0;
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-align: center;
+		-webkit-align-items: center;
+		    -ms-flex-align: center;
+		        align-items: center;
+		color: #999;
+		font-weight: 300;
+}
+.rad {
+		width: 36rpx;
+		height: 36rpx;
+		margin-right: 16rpx;
+}
+
+	/* .cards{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding:10rpx 20rpx 0;
+  border-bottom:1px solid #eee;
+  margin-bottom: 30rpx;
+}
+.cardP{
+  padding:10rpx 0 0;
+  height:180rpx;
+  overflow: hidden;
+  text-align: center;
+}
+
+.cardPic{
+  width:610rpx;
+  height:330rpx;
+  border-radius: 26rpx; 
+  box-shadow: 0rpx 4rpx 10rpx 3rpx #ccc; 
+} */
+.cards {
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-webkit-flex-direction: column;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
+		-webkit-box-pack: start;
+		-webkit-justify-content: flex-start;
+		    -ms-flex-pack: start;
+		        justify-content: flex-start;
+		padding: 10rpx 20rpx;
+		border-bottom: 1px solid #f8f8f8;
+}
+.cardP {
+		text-align: center;
+		margin-top: 10rpx;
+}
+.cardPic {
+		width: 660rpx;
+		height: 380rpx;
+		/* border-radius: 26rpx;  */
+		/* box-shadow: 0rpx 4rpx 10rpx 3rpx #ccc;  */
+}
+.bang {
+		margin: 60rpx auto 100rpx;
+		border: 1px solid #f3b576;
+		background-color: #f3b576;
+		color: #fff;
+		border-radius: 35rpx;
+		height: 70rpx;
+		line-height: 70rpx;
+		width: 70%;
+		text-align: center;
+}
+.use {
+		position: fixed;
+		width: 100%;
+		height: 100rpx;
+		line-height: 100rpx;
+		left: 0;
+		bottom: 0;
+		text-align: center;
+		background-color: #f18d33;
+		color: #fff;
+}
+

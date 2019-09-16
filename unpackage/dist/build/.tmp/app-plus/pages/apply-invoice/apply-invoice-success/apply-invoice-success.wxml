@@ -1,0 +1,1 @@
+<view class="con-container"><image class="img-suc" src="http://aoyifarm.oss-cn-beijing.aliyuncs.com/icon/succcess.png"></image><view class="tifh">提交成功，注意查收</view><view data-event-opts="{{[['tap',[['onGoBackClick',['$event']]]]]}}" class="jjfh" bindtap="__e"><text>立即返回</text></view></view>

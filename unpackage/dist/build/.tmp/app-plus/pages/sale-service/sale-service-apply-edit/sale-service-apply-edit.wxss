@@ -1,0 +1,217 @@
+
+page {
+	background: #fff;
+}
+.top-shuoming {
+	background: #fff;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	margin: 10rpx 20rpx 20rpx 20rpx;
+	padding: 20rpx 15rpx;
+	border-radius: 10px;
+}
+.shuoming {
+	border-style: dashed;
+	border: 3rpx dashed #ccc;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	margin: 5rpx 10rpx 5rpx 10rpx;
+	padding: 15rpx 15rpx 15rpx 15rpx;
+}
+.title-shuoming {
+	color: #333;
+	font-size: 28rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+}
+.title-content {
+	color: #333;
+	font-size: 24rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+}
+.order-info {
+	background: #fff;
+	color: #333;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	padding: 20rpx 20rpx;
+	font-size: 28rpx;
+	border-bottom: 1rpx solid #f4f4f4;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+.item-center-default {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	padding: 20rpx 30rpx;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+.mujiimg {
+	width: 140rpx;
+	height: 114rpx;
+	margin-right: 15rpx;
+}
+.text-wpd {
+	color: #333;
+	font-size: 28rpx;
+}
+.goods-info {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	background: #fff;
+	margin: 20rpx 20rpx 10rpx 20rpx;
+	border-radius: 10px;
+}
+.sq-container {
+	background: #fff;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	border-top: 15rpx solid #f4f4f4;
+	border-radius: 15px;
+	margin: 0rpx 20rpx 10rpx 20rpx;
+}
+.sq-title {
+	padding: 20rpx 20rpx 20rpx 20rpx;
+	color: #333;
+	font-size: 28rpx;
+}
+.wenZi {
+	background-color: #fbfbfb;
+	border: 1px solid #eee;
+	padding: 15rpx 2%;
+	margin: 0 30rpx;
+	font-size: 26rpx;
+	color: #333;
+}
+.pics {
+	margin: 0rpx 30rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+}
+.picsGallary {
+	position: relative;
+	margin-right: 30rpx;
+}
+.delete {
+	position: absolute;
+	top: -10rpx;
+	right: -10rpx;
+	width: 40rpx;
+	height: 40rpx;
+}
+.yiyou {
+	width: 150rpx;
+	height: 150rpx;
+	border: 1rpx solid #ccc;
+}
+.upload {
+	width: 150rpx;
+	height: 150rpx;
+}
+.greenBtn {
+	width: 300rpx;
+	height: 60rpx;
+	display: block;
+	background-color: #85DFA3;
+	color: #fff;
+	padding-top: 2rpx;
+	padding-bottom: 2rpx;
+	font-size: 24rpx;
+	border-radius: 60rpx;
+	text-align: center;
+	margin: 10rpx 0rpx 30rpx 0rpx;
+}
+.center-center {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	    -ms-flex: 1;
+	        flex: 1;
+}
+.pic-tishi {
+	color: #999;
+	font-size: 24rpx;
+	padding: 20rpx 30rpx;
+}
+.container {
+	background: #f2f5fa;
+}
+.button-container {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+}
+.price {
+	color: #fd1e0d;
+}
+

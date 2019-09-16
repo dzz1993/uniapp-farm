@@ -1,0 +1,330 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+/* 自己定义背景颜色 */
+.page-top {
+  height: 200rpx;
+  background: #85DFA3;
+}
+.page-top .gg-container {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 20rpx;
+}
+.page-top .gg-container .gg-left {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: row;
+          -ms-flex-direction: row;
+              flex-direction: row;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center;
+}
+.page-top .gg-container .gg-left .lb-img {
+        width: 48rpx;
+        height: 48rpx;
+        margin-left: 20rpx;
+        margin-right: 20rpx;
+}
+.page-top .gg-container .gg-left .gg-text {
+        color: #fff;
+        font-size: 28rpx;
+}
+.page-top .gg-container .swiper_container {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-flex: 1;
+      -webkit-flex: 1;
+          -ms-flex: 1;
+              flex: 1;
+      height: 80rpx;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center;
+}
+.page-top .gg-container .swiper_container .swiper_item {
+        font-size: 28rpx;
+        overflow: hidden;
+        -o-text-overflow: ellipsis;
+           text-overflow: ellipsis;
+        white-space: nowrap;
+        letter-spacing: 2px;
+        color: #fff;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+            -ms-flex-align: center;
+                align-items: center;
+        height: 80rpx;
+        line-height: 80rpx;
+}
+.page-top .gg-container .more {
+      margin-left: 10rpx;
+      color: #fff;
+      font-size: 28rpx;
+      white-space: nowrap;
+}
+.myfarm-container {
+  width: 690rpx;
+  overflow: hidden;
+  -webkit-box-shadow: 0px 5px 20px -5px #ddd;
+          box-shadow: 0px 5px 20px -5px #ddd;
+  background: #fff;
+  margin: -90rpx 30rpx 20rpx 30rpx;
+  border-radius: 15rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.myfarm-container .myfarm-title {
+    color: #333;
+    font-size: 32rpx;
+    padding: 20rpx;
+    font-weight: bold;
+}
+.myfarm-container .pl-hr {
+    width: 100%;
+    background: #f3f6fb;
+    height: 2rpx;
+}
+.myfarm-container .no-farm-container {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 30rpx;
+}
+.myfarm-container .no-farm-container .no-content {
+      padding: 60rpx;
+      color: #b4bbc2;
+      font-size: 30rpx;
+}
+.img-item-container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+.img-item-container::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  width: 650rpx;
+  height: 2rpx;
+  background-color: #F2F2F2;
+  margin-left: 20rpx;
+}
+.img-item-container:last-child::after {
+  content: '';
+}
+.mid-container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-left: 26rpx;
+  margin-top: -15rpx;
+  width: 400rpx;
+}
+.tc-item-icon {
+  width: 75rpx;
+  height: 79rpx;
+  margin-left: 20rpx;
+  margin-top: 22rpx;
+  margin-bottom: 19rpx;
+}
+.mid-1-text {
+  font-size: 30rpx;
+  color: #4D4D4D;
+  margin-top: 22rpx;
+}
+.mid-2-text {
+  color: #B5BBC1;
+  font-size: 26rpx;
+}
+.mid-3-text {
+  color: #4D4D4D;
+  font-size: 30rpx;
+  margin-left: 5rpx;
+}
+.g-container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 0rpx 30rpx 20rpx 30rpx;
+  background: #FFF;
+  border-radius: 30rpx;
+}
+.g-container .g-top {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+.g-container .g-top .g-title {
+      margin: 23rpx 0rpx 20rpx 23rpx;
+      color: #FFF;
+      font-size: 30rpx;
+}
+.g-container .g-top .g-title-right {
+      margin: 23rpx 23rpx 20rpx 0rpx;
+      color: #FFF;
+      font-size: 30rpx;
+}
+.g-container .g-detail {
+    margin: 20rpx;
+    color: #B5BBC1;
+}
+.g-container .g-line {
+    height: 2px;
+    background: #f2f2f2;
+}
+.g-container .tc-item-container {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding-top: 20rpx;
+    padding-left: 20rpx;
+    padding-right: 20rpx;
+}
+.g-container .tc-item-container .tc-title {
+      color: #666666;
+      font-size: 32rpx;
+}
+.g-container .tc-item-container .tc-detial {
+      color: #B5BBC1;
+}
+.pp-container {
+  height: 200rpx;
+}
+.footer-container {
+  height: 160rpx;
+  width: 100%;
+  background: #fff;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  z-index: 99;
+}
+.footer-container .xd-container {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    color: #333;
+    font-size: 30rpx;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+.footer-container .xd-container .hr {
+      width: 2rpx;
+      height: 160rpx;
+      background: #f3f6fb;
+}
+.footer-container .xd-container .xd-img {
+      width: 100rpx;
+      height: 100rpx;
+      margin-right: 20rpx;
+}
+

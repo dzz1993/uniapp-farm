@@ -1,0 +1,514 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+            "path" : "pages/home-market/home-market",
+            "style" : {
+				"navigationBarTitleText": "首页",
+				"enablePullDownRefresh": true   
+			}
+        },
+		{
+            "path" : "pages/home-my/home-my",
+            "style" : {
+				"navigationBarTitleText": "我的",
+				"enablePullDownRefresh": true
+			}
+        },
+		{
+            "path" : "pages/home-farm-owner/home-farm-owner",
+            "style" : {
+				"navigationBarTitleText": "地主",
+				"enablePullDownRefresh": true
+			}
+        },
+		{
+            "path" : "pages/home-leaguer/home-leaguer",
+            "style" : {
+				"navigationBarTitleText": "会员",
+				"enablePullDownRefresh": true
+			}
+        },
+		
+		{
+            "path" : "pages/home-shop-car/home-shop-car",
+            "style" : {
+				"navigationBarTitleText": "菜篮",
+				"enablePullDownRefresh": true
+			}
+        },
+		
+		{
+		    "path" : "pages/notice/notice-details/notice-details",
+		    "style" : {
+				"navigationBarTitleText": "公告详情"
+			}
+		},
+		
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		}
+		
+        ,{
+            "path" : "pages/app_login/app_login",
+            "style" : {
+				"navigationBarTitleText": "登录",
+				"app-plus":{
+            		"titleNView":{
+						"autoBackButton":"false"
+            		},
+            		"scrollIndicator":"none"
+            	}
+			}
+        }
+        ,{
+            "path" : "pages/web_page/web_page",
+            "style" : {
+				"navigationBarTitleText": "详情"
+			}
+        }
+        ,{
+            "path" : "pages/market-good-new-details/market-good-new-details",
+            "style" : {
+				"navigationBarTitleText": "商品详情"
+			}
+        }
+        ,{
+            "path" : "pages/receive-cai-new-log/receive-cai-new-log",
+            "style" : {
+				"navigationBarTitleText": "收菜记录"
+			}
+        }
+        ,{
+            "path" : "pages/receive-egg-log/receive-egg-log",
+            "style" : {
+				"navigationBarTitleText": "收蛋记录"
+			}
+        }
+        ,{
+            "path" : "pages/market-pay/market-pay",
+            "style" : {
+				"navigationBarTitleText": "支付"
+			}
+        }
+        ,{
+            "path" : "pages/customer-and-help/customer-and-help",
+            "style" : {
+				"navigationBarTitleText": "客服与帮助"
+			}
+        },
+		{
+		    "path" : "pages/sale-service/sale-service-apply-success/sale-service-apply-success",
+		    "style" : {
+				"navigationBarTitleText": "提交成功"
+			}
+		}
+        ,{
+            "path" : "pages/feedback-advice/feedback-advice",
+            "style" : {
+				"navigationBarTitleText": "反馈意见"
+			}
+        }
+        ,{
+            "path" : "pages/setting/setting",
+            "style" : {
+				"navigationBarTitleText": "设置"
+			}
+        }
+        ,{
+            "path" : "pages/about/about",
+            "style" : {
+				"navigationBarTitleText": "关于"
+			}
+        }
+        ,{
+            "path" : "pages/apply-invoice/apply-invoice/apply-invoice",
+            "style" : {
+				"navigationBarTitleText": "开票"
+			}
+        }
+        ,{
+            "path" : "pages/apply-invoice/apply-invoice-list/apply-invoice-list",
+            "style" : {
+				"navigationBarTitleText": "发票"
+			}
+        }
+        ,{
+            "path" : "pages/apply-invoice/apply-invoice-history-list/apply-invoice-history-list",
+            "style" : {
+				"navigationBarTitleText": "开票历史"
+			}
+        }
+        ,{
+            "path" : "pages/apply-invoice/apply-invoice-details/apply-invoice-details",
+            "style" : {
+				"navigationBarTitleText": "申请开票"
+			}
+        }
+        ,{
+            "path" : "pages/apply-invoice/apply-invoice-success/apply-invoice-success",
+            "style" : {
+				"navigationBarTitleText": "开票成功"
+			}
+        }
+        ,{
+            "path" : "pages/my-coupon-new-list/my-coupon-new-list",
+            "style" : {
+				"navigationBarTitleText": "优惠券"
+			}
+        }
+        ,{
+            "path" : "pages/address/address-list/address-list",
+            "style" : {
+				"navigationBarTitleText": "地址管理"
+			}
+        }
+        ,{
+            "path" : "pages/xuanji/xuanji",
+            "style" : {
+				"navigationBarTitleText": "选鸡"
+			}
+        }
+        ,{
+            "path" : "pages/select-pay-vegetable-field/select-pay-vegetable-field",
+            "style" : {
+				"navigationBarTitleText": "购地"
+			}
+        }
+        ,{
+            "path" : "pages/select-pay-chicken/select-pay-chicken",
+            "style" : {
+				"navigationBarTitleText": "购鸡"
+			}
+        }
+        ,{
+            "path" : "pages/leaguer/leaguer-benefit-rule/leaguer-benefit-rule",
+            "style" : {
+				"navigationBarTitleText": "权益说明"
+			}
+        }
+        ,{
+            "path" : "pages/leaguer/leaguer-pay/leaguer-pay",
+            "style" : {
+				"navigationBarTitleText": "支付"
+			}
+        }
+        ,{
+            "path" : "pages/notice/more-notice/more-notice",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/leaguer/leaguer-pay-success/leaguer-pay-success",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/field_pro/field_pro",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/address/select-address-list/select-address-list",
+            "style" : {
+				"navigationBarTitleText": "选择地址"
+			}
+        }
+        ,{
+            "path" : "pages/select-coupon/select-coupon",
+            "style" : {
+				"navigationBarTitleText": "优惠券"
+			}
+        }
+        ,{
+            "path" : "pages/select-coupon-freight/select-coupon-freight",
+            "style" : {
+				"navigationBarTitleText": "包邮券"
+			}
+        }
+        ,{
+            "path" : "pages/pay-field-success/pay-field-success",
+            "style" : {
+				"navigationBarTitleText": "支付成功"
+			}
+        }
+        ,{
+            "path" : "pages/chicken_pro/chicken_pro",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/pay-chicken-success/pay-chicken-success",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/paycards/paycards",
+            "style" : {
+				"navigationBarTitleText": "礼品卡"
+			}
+        }
+        ,{
+            "path" : "pages/market-shop-car-pay/market-shop-car-pay",
+            "style" : {
+				"navigationBarTitleText": "支付"
+			}
+        }
+        ,{
+            "path" : "pages/myfield/myfield",
+            "style" : { 
+				"navigationBarTitleText": "我的菜地"
+			}
+        }
+        ,{
+            "path" : "pages/myChicken/myChicken",
+            "style" : {
+				"navigationBarTitleText": "我的鸡"
+			}
+        }
+        ,{
+            "path" : "pages/fee-pay-vegetable-field/fee-pay-vegetable-field",
+            "style" : {
+				"navigationBarTitleText": "续费"
+			}
+        }
+        
+        
+        ,{
+            "path" : "pages/address/select-address-list-baoyou/select-address-list-baoyou",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/my-seed-menu/my-seed-menu",
+            "style" : {
+				"navigationBarTitleText": "种菜单"
+			}
+        }
+        ,{
+            "path" : "pages/selected-vegatable-lists/selected-vegatable-lists",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/select-harvest-vegetable/select-harvest-vegetable",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/bind-gift-card/bind-gift-card",
+            "style" : {
+				"navigationBarTitleText": "添加礼品卡"
+			}
+        }
+        ,{
+            "path" : "pages/market-pay-success/market-pay-success",
+            "style" : {
+				"navigationBarTitleText": "支付成功"
+			}
+        }
+        ,{
+            "path" : "pages/market-card-pay/market-card-pay",
+            "style" : {
+				"navigationBarTitleText": "支付"
+			}
+        }
+        ,{
+            "path" : "pages/market-pay-card-success/market-pay-card-success",
+            "style" : {
+				"navigationBarTitleText": "支付成功"
+			}
+        }
+        ,{
+            "path" : "pages/address/address-add/address-add",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/select-calendar/select-calendar",
+            "style" : {
+				"navigationBarTitleText": "选择时间"
+			}
+        },{
+            "path" : "pages/order/order-my-version-log/order-my-version-log",
+            "style" : {
+				"navigationBarTitleText": "订单"
+			}
+        }
+        ,{
+            "path" : "pages/recharge/czk_card/czk_card",
+            "style" : {
+				"navigationBarTitleText": "充值卡充值"
+			}
+        }
+        ,{
+            "path" : "pages/recharge/recharge-pay/recharge-pay",
+            "style" : {
+				"navigationBarTitleText": "余额储值"
+			}
+        }
+        ,{
+            "path" : "pages/recharge/recharge-question/recharge-question",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/recharge/recharge-remain-sum/recharge-remain-sum",
+            "style" : {
+				"navigationBarTitleText": "我的余额"
+			}
+        }
+        ,{
+            "path" : "pages/invite/inviteFriends/inviteFriends",
+            "style" : {
+				"navigationBarTitleText": "邀请有礼"
+			}
+        }
+        ,{
+            "path" : "pages/invite/inviteList/inviteList",
+            "style" : {
+				"navigationBarTitleText": "奖励记录"
+			}
+        }
+        ,{
+            "path" : "pages/invite/invite-rule/invite-rule",
+            "style" : {
+				"navigationBarTitleText": "活动规则"
+			}
+        }
+        ,{
+            "path" : "pages/sale-service/sale-service-apply-list/sale-service-apply-list",
+            "style" : {
+				"navigationBarTitleText": "售后申请"
+			}
+        }
+		,{
+		    "path" : "pages/sale-service/sale-service-apply/sale-service-apply",
+		    "style" : {
+				"navigationBarTitleText": "售后申请"
+			}
+		}
+		,{
+		    "path" : "pages/sale-service/sale-service-apply-edit/sale-service-apply-edit",
+		    "style" : {
+				"navigationBarTitleText": "售后申请"
+			}
+		}
+		,{
+		    "path" : "pages/sale-service/sale-service-apply-details/sale-service-apply-details",
+		    "style" : {
+				"navigationBarTitleText": "售后详情"
+			}
+		}
+        ,{
+            "path" : "pages/group-shop/group-shop-my-list/group-shop-my-list",
+            "style" : {
+				"navigationBarTitleText": "我的团"
+			}
+        }
+        ,{
+            "path" : "pages/recharge/recharge-pay-success/recharge-pay-success",
+            "style" : {
+				"navigationBarTitleText": "支付成功"
+			}
+        }
+        ,{
+            "path" : "pages/recharge/recharge-consume-list/recharge-consume-list",
+            "style" : {
+				"navigationBarTitleText": "明细"
+			}
+        }
+        ,{
+            "path" : "pages/home-farm-camera/home-farm-camera",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/select-coupon-pay-field/select-coupon-pay-field",
+            "style" : {
+				"navigationBarTitleText": "优惠券"
+			}
+        }
+        ,{
+            "path" : "pages/change-name/change-name",
+            "style" : {
+				"navigationBarTitleText": "更改"
+			}
+        }
+        
+        ,{
+            "path" : "pages/logistics/logistics",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/receive-cai-log-details/receive-cai-log-details",
+            "style" : {}
+        }
+		,{
+		    "path" : "pages/comment/comment/comment",
+		    "style" : {}
+		}
+        ,{
+            "path" : "pages/select-region/select-region/select-region",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/select-region/select-region-city/select-region-city",
+            "style" : {}
+        },
+		{
+		    "path" : "pages/select-vegetable-tip/select-vegetable-tip",
+		    "style" : {
+				"navigationBarTitleText": "温馨提示"
+			}
+		}
+		
+        ,{
+            "path" : "pages/comment/chicken-comment/chicken-comment",
+            "style" : {}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "奥一农场",
+		"navigationBarBackgroundColor": "#85DFA3",
+		"backgroundColor": "#f3f6fb"
+	},
+	"tabBar": {
+    "color": "#6f6f6f",
+    "selectedColor": "#4EDAA7",
+    "list": [
+      {
+        "pagePath": "pages/home-market/home-market",
+        "iconPath": "static/icon/js.png",
+        "selectedIconPath": "static/icon/js_p.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/home-leaguer/home-leaguer",
+        "iconPath": "static/icon/hy.png",
+        "selectedIconPath": "static/icon/hy_p.png",
+        "text": "会员"
+      },
+      {
+        "pagePath": "pages/home-farm-owner/home-farm-owner",
+        "iconPath": "static/icon/dz.png",
+        "selectedIconPath": "static/icon/dz_p.png",
+        "text": "地主"
+      },
+      {
+        "pagePath": "pages/home-shop-car/home-shop-car",
+        "iconPath": "static/icon/cl.png",
+        "selectedIconPath": "static/icon/cl_p.png",
+        "text": "菜篮"
+      },
+      {
+        "pagePath": "pages/home-my/home-my",
+        "iconPath": "static/icon/my.png",
+        "selectedIconPath": "static/icon/my_p.png",
+        "text": "我的"
+      }
+    ]
+  },
+	"condition" : { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [
+			{
+				"name": "", //模式名称
+				"path": "", //启动页面，必选
+				"query": "" //启动参数，在页面的onLoad函数里面得到
+			}
+		]
+	}
+}

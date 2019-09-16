@@ -1,0 +1,122 @@
+
+.content-page{
+	background: #ffffff;
+	padding-bottom: 30rpx;
+}
+.row-wrap {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	padding: 20rpx 30rpx;
+	border-bottom: 1rpx solid #eee;
+}
+.row-wrap-switch {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	padding: 20rpx 30rpx;
+	border-bottom: 1rpx solid #eee;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+}
+.label-right {
+	padding-left: 30rpx;
+}
+.box-switch-img {
+	width: 66rpx;
+	height: 33rpx;
+}
+.indicatorStyle {
+	height: 40px;
+}
+.save-btn {
+	background-color: #85DFA3;
+	color: #fff;
+	width: 690rpx;
+	height: 80rpx;
+	line-height: 80rpx;
+	text-align: center;
+	margin-top: 30rpx;
+	border-radius: 6rpx;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+.distpicker {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	z-index: 999;
+	width: 100%;
+	height: 500rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-justify-content: space-around;
+	    -ms-flex-pack: distribute;
+	        justify-content: space-around;
+	-webkit-flex-wrap: wrap;
+	    -ms-flex-wrap: wrap;
+	        flex-wrap: wrap;
+	background-color: #fff;
+}
+.distpicker-btn {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+	width: 100%;
+	padding: 0 40rpx;
+	height: 80rpx;
+	line-height: 80rpx;
+	background-color: #fafafa;
+	color: #586C94;
+}
+.distpicker-content {
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+	width: 100%;
+	height: 350rpx;
+	background-color: #fff;
+}
+.area-item {
+	text-align: center;
+}
+.mask {
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 998;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, .4);
+}
+

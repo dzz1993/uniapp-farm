@@ -1,0 +1,1 @@
+<view><view class="page-container"><block wx:for="{{sub_region_list}}" wx:for-item="item" wx:for-index="index" wx:key="index"><view data-event-opts="{{[['tap',[['onCityClick',['$0'],[[['sub_region_list','',index]]]]]]]}}" class="city-container" bindtap="__e"><text class="city-name">{{item.region_name}}</text></view></block></view></view>
