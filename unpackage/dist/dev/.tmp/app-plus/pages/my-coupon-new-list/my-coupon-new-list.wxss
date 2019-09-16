@@ -1,0 +1,314 @@
+
+.page-container {
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-webkit-flex-direction: column;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
+}
+.top-container-in {
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-webkit-flex-direction: column;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
+		position: fixed;
+		z-index: 1000;
+		width: 100%;
+}
+.top-container {
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-orient: horizontal;
+		-webkit-box-direction: normal;
+		-webkit-flex-direction: row;
+		    -ms-flex-direction: row;
+		        flex-direction: row;
+		-webkit-box-pack: justify;
+		-webkit-justify-content: space-between;
+		    -ms-flex-pack: justify;
+		        justify-content: space-between;
+		background: #fff;
+		padding: 20rpx 20rpx;
+		-webkit-box-align: center;
+		-webkit-align-items: center;
+		    -ms-flex-align: center;
+		        align-items: center;
+		color: #333;
+		font-size: 30rpx;
+}
+.input {
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-flex: 1;
+		-webkit-flex: 1;
+		    -ms-flex: 1;
+		        flex: 1;
+		background: #fff;
+		padding: 15rpx 20rpx;
+		margin-top: 20rpx;
+		font-size: 26rpx;
+		margin-right: 30rpx;
+		border: 1rpx solid #e4e4e4;
+		border-radius: 35rpx;
+}
+.change-num {
+		margin-top: 20rpx;
+		background-color: #85DFA3;
+		color: #fff;
+		padding: 10rpx 40rpx;
+		font-size: 30rpx;
+		border-radius: 50rpx;
+}
+.status-box {
+		/* width: 100%;
+  height: 88rpx;
+  line-height: 88rpx;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #fff;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 100; */
+		width: 100%;
+		height: 88rpx;
+		line-height: 88rpx;
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-justify-content: space-around;
+		    -ms-flex-pack: distribute;
+		        justify-content: space-around;
+		-webkit-box-align: center;
+		-webkit-align-items: center;
+		    -ms-flex-align: center;
+		        align-items: center;
+		background-color: #fff;
+}
+.status-box .status-label {
+		width: 150rpx;
+		height: 100%;
+		text-align: center;
+		font-size: 32rpx;
+		color: #333;
+		-webkit-box-sizing: border-box;
+		        box-sizing: border-box;
+		position: relative;
+}
+.status-box .status-label.active {
+		color: #49D8A4;
+		border-bottom: 6rpx solid #49D8A4;
+}
+.status-box .status-label .red-dot {
+		width: 16rpx;
+		height: 16rpx;
+		position: absolute;
+		left: 116rpx;
+		top: 23rpx;
+		background-color: #49D8A4;
+		border-radius: 50%;
+}
+.container-list {
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-webkit-flex-direction: column;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
+		-webkit-box-pack: start;
+		-webkit-justify-content: flex-start;
+		    -ms-flex-pack: start;
+		        justify-content: flex-start;
+		margin-top: 270rpx;
+}
+.coupon-item-inner-container {
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-orient: horizontal;
+		-webkit-box-direction: normal;
+		-webkit-flex-direction: row;
+		    -ms-flex-direction: row;
+		        flex-direction: row;
+		-webkit-box-align: center;
+		-webkit-align-items: center;
+		    -ms-flex-align: center;
+		        align-items: center;
+		padding: 20rpx;
+		-webkit-box-flex: 1;
+		-webkit-flex: 1;
+		    -ms-flex: 1;
+		        flex: 1;
+}
+.coupon-item-container {
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-orient: horizontal;
+		-webkit-box-direction: normal;
+		-webkit-flex-direction: row;
+		    -ms-flex-direction: row;
+		        flex-direction: row;
+		-webkit-box-align: center;
+		-webkit-align-items: center;
+		    -ms-flex-align: center;
+		        align-items: center;
+		margin: 0 20rpx 20rpx 20rpx;
+		position: relative;
+}
+.coupon-item-left {
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-orient: horizontal;
+		-webkit-box-direction: normal;
+		-webkit-flex-direction: row;
+		    -ms-flex-direction: row;
+		        flex-direction: row;
+		-webkit-box-align: center;
+		-webkit-align-items: center;
+		    -ms-flex-align: center;
+		        align-items: center;
+		-webkit-box-flex: 1;
+		-webkit-flex: 1;
+		    -ms-flex: 1;
+		        flex: 1;
+		margin-left: 10rpx;
+}
+.box-img {
+		width: 45rpx;
+		height: 45rpx;
+}
+.coupon-item-price-des {
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-webkit-flex-direction: column;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
+}
+.price {
+		font-size: 70rpx;
+		color: #ff7e00;
+		font-weight: 500;
+}
+.price-no {
+		font-size: 70rpx;
+		color: #c2c2c2;
+		font-weight: 500;
+}
+.price-danwei {
+		font-size: 32rpx;
+		color: #ff7e00;
+		font-weight: 550;
+}
+.price-danwei-no {
+		font-size: 32rpx;
+		color: #c2c2c2;
+		font-weight: 550;
+}
+.coupon-youxiaoqi {
+		font-size: 22rpx;
+		color: #666;
+}
+.coupon-youxiaoqi-no {
+		font-size: 22rpx;
+		color: #c2c2c2;
+}
+.coupon-des {
+		font-size: 27rpx;
+		color: #333;
+}
+.coupon-des-no {
+		font-size: 27rpx;
+		color: #c2c2c2;
+}
+.coupon-type {
+		font-size: 35rpx;
+		color: #ff7e00;
+		margin-left: 30rpx;
+		margin-right: 30rpx;
+}
+.coupon-type-no {
+		font-size: 35rpx;
+		color: #c2c2c2;
+		margin-left: 30rpx;
+		margin-right: 30rpx;
+}
+.xiantiao-img {
+		width: 1px;
+		height: 150rpx;
+}
+.use-text {
+		position: fixed;
+		bottom: 0rpx;
+		left: 0rpx;
+		width: 100%;
+		height: 130rpx;
+		background-color: #f8f8f8;
+		display: none;
+}
+.use-text text {
+		display: block;
+		font-size: 32rpx;
+		color: #fff;
+		background: #ff7e00;
+		border-radius: 60rpx;
+		padding-top: 15rpx;
+		padding-bottom: 15rpx;
+		text-align: center;
+		margin: 30rpx 80rpx 0rpx 80rpx;
+}
+.tiShi {
+		padding-top: 200rpx;
+		width: 250rpx;
+		height: 100vh;
+		
+		margin: 0rpx auto;
+		text-align: center;
+		color: #999;
+		font-weight: 300;
+}
+.noCard {
+		width: 200rpx;
+		height: 190rpx;
+}
+.hide {
+		display: none;
+}
+.show {
+		display: block;
+}
+.statue-img {
+		width: 180rpx;
+		height: 180rpx;
+		position: absolute;
+		right: 0;
+		top: 0;
+		margin-right: 20rpx;
+}
+

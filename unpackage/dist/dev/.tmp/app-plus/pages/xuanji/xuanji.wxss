@@ -1,0 +1,297 @@
+
+.shipin {
+	width: 750rpx;
+	height: 340rpx;
+}
+.zhanwei {
+	width: 750rpx;
+	height: 340rpx;
+	background: #000;
+}
+.sec1 {
+	position: relative;
+}
+.secTitle {
+	height: 40rpx;
+	line-height: 40rpx;
+	font-size: 30rpx;
+	color: #333;
+	margin-top: 30rpx;
+	padding: 15rpx 20rpx;
+	position: relative;
+	font-weight: 300;
+	background-color: #fff;
+	border-bottom: 1px solid #eee;
+}
+.flag {
+	position: absolute;
+	top: 15rpx;
+	right: 0rpx;
+	color: #ff7d0c;
+	width: 140rpx;
+	padding-left: 10rpx;
+	height: 40rpx;
+	line-height: 40rpx;
+	text-align: center;
+	font-size: 26rpx;
+	font-weight: 300;
+}
+.jiInfo {
+	height: 70rpx;
+	padding: 15px 0;
+	background-color: #fff;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-justify-content: space-around;
+	    -ms-flex-pack: distribute;
+	        justify-content: space-around;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	font-size: 25rpx;
+}
+.erFen {
+	position: relative;
+	width: 50%;
+	font-size: 40rpx;
+	text-align: center;
+	font-weight: 400;
+	color: #333;
+}
+.erFen:first-child::before {
+	content: '';
+	position: absolute;
+	top: 50%;
+	margin-top: -30rpx;
+	right: 0;
+	width: 1rpx;
+	height: 60rpx;
+	background-color: #ddd;
+}
+.yellow {
+	display: block;
+	color: #333;
+	font-size: 26rpx;
+	font-weight: 300;
+}
+.jiChang {
+	position: relative;
+	padding: 15rpx 20rpx;
+	margin-bottom: 20rpx;
+	background-color: #fff;
+}
+.tag {
+	position: absolute;
+	top: 0rpx;
+	right: 0rpx;
+}
+.tag image {
+	width: 120rpx;
+	height: 120rpx;
+}
+.ming {
+	font-size: 28rpx;
+	color: #333;
+}
+.san {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	padding: 15rpx 0;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	-webkit-justify-content: space-around;
+	    -ms-flex-pack: distribute;
+	        justify-content: space-around;
+	text-align: center;
+	font-size: 26rpx;
+	font-weight: 300;
+	color: #999;
+}
+.huang {
+	font-size: 32rpx;
+	font-weight: 400;
+	color: #ff7d0c;
+}
+.heng {
+	border-top: 1rpx solid #fdf8f3;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	padding: 15rpx 0 0;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+}
+.price {
+	font-size: 28rpx;
+	color: #333;
+}
+.heng button {
+	padding: 0;
+	margin: 0;
+	width: 150rpx;
+	height: 50rpx;
+	line-height: 50rpx;
+	font-size: 25rpx;
+}
+.text-no {
+	width: 150rpx;
+	height: 50rpx;
+	line-height: 50rpx;
+	font-size: 25rpx;
+	color: #fff;
+	text-align: center;
+	background: #c9c9c9;
+	border-radius: 10rpx;
+}
+.text-yes {
+	width: 150rpx;
+	height: 50rpx;
+	line-height: 50rpx;
+	font-size: 25rpx;
+	color: #fff;
+	text-align: center;
+	background: #ff7e00;
+	border-radius: 10rpx;
+}
+.footer {
+	height: 100rpx;
+	line-height: 100rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	font-size: 30rpx;
+	position: fixed;
+	width: 100%;
+	bottom: 0rpx;
+	left: 0rpx;
+}
+.heBox {
+	width: 72%;
+	text-indent: 20rpx;
+	background-color: #fdf8f3;
+}
+.colorBtn {
+	width: 28%;
+	text-align: center;
+	background-color: #ff7100;
+	color: #fff;
+}
+
+/* ************修改部分************** */
+.caidi-name {
+	color: #333;
+	font-size: 30rpx;
+	width: 14rpx;
+	position: absolute;
+}
+.caiyuan-item-container {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	width: 120rpx;
+	height: 310rpx;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+}
+
+/*  重写 checkbox 样式  */
+checkbox .wx-checkbox-input {
+	border-radius: 50%;
+	width: 40rpx;
+	height: 40rpx;
+}
+checkbox .wx-checkbox-input.wx-checkbox-input-checked {
+	border: none;
+	background: #ff7d0c;
+}
+checkbox .wx-checkbox-input.wx-checkbox-input-checked::before {
+	border-radius: 50%;
+	width: 40rpx;
+	height: 40rpx;
+	line-height: 40rpx;
+	text-align: center;
+	font-size: 30rpx;
+	color: #fff;
+	background: transparent;
+	-ms-transform: translate(-50%, -50%) scale(1);
+	    transform: translate(-50%, -50%) scale(1);
+	-webkit-transform: translate(-50%, -50%) scale(1);
+}
+.tab-switch {
+	border-radius: 50rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	width: 250rpx;
+	background: #fff;
+	border: 1rpx solid #dedede;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	height: 50rpx;
+	margin-top: 10rpx;
+	margin-left: 10rpx;
+	margin-bottom: 10rpx;
+}
+.dap-selected {
+	color: #fff;
+	background: #ffab02;
+	border-radius: 50rpx;
+	font-size: 26rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	width: 125rpx;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	text-align: center;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+}
+.dap {
+	color: #333;
+	background: #fff;
+	border-radius: 50rpx;
+	font-size: 26rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	width: 125rpx;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	text-align: center;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+}
+

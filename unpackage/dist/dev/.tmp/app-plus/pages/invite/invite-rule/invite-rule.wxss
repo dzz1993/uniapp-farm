@@ -1,0 +1,8 @@
+
+.rule-container{
+  padding: 0 30rpx;
+}
+page {
+	background: #FFFFFF;
+}
+

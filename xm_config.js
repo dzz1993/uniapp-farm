@@ -3,7 +3,7 @@ var httpUtils = require('./common/httpUtils.js');
 /**
  * 项目基本配置文件
  */
-var xm_host = 'https://m.aoyifarm.com/'; //https://m.viewcreator3d.cn  https://m.aoyifarm.com/
+var xm_host = 'https://m.viewcreator3d.cn/'; //https://m.viewcreator3d.cn/  https://m.aoyifarm.com/
 
 var version_name = "1.0.3"
 

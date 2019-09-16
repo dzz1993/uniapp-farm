@@ -1,0 +1,1 @@
+<view><view class="page-container"><view class="successImgContainer"><image class="successImg" src="https://aoyifarm.oss-cn-beijing.aliyuncs.com/icon/czSuccess.png"></image></view><text class="tips">快去集市买买买吧！</text><view class="jishi" catchtap="onGoFinishClick"><text class="jishi-text">逛逛集市</text></view></view></view>

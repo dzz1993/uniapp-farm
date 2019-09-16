@@ -71,7 +71,7 @@
                         "app@2x" : "unpackage/res/icons/152x152.png",
                         "notification" : "unpackage/res/icons/20x20.png",
                         "notification@2x" : "unpackage/res/icons/40x40.png",
-                        "proapp@2x" : "unpackage/res/icons/167x167.png",
+                        "proapp@2x" : "unpackage/res/icons/152x152.png",
                         "settings" : "unpackage/res/icons/29x29.png",
                         "settings@2x" : "unpackage/res/icons/58x58.png",
                         "spotlight" : "unpackage/res/icons/40x40.png",

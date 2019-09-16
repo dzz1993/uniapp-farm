@@ -1,0 +1,1 @@
+<view><view class="page-container"><text class="top-1">奥一农场</text><text class="top-2">{{"¥ "+order_info.order_amount}}</text><text data-event-opts="{{[['tap',[['onShopClick',['$event']]]]]}}" class="go-market" bindtap="__e">逛逛集市</text></view></view>
